@@ -1,10 +1,3 @@
-let x = +prompt ('Введите первое число');
-let y = +prompt ('Введите второе число');
-
-if (y <= x) {
-  console.log ('Первое число должно быть меньше второго');
-}
-
 function nums(a, b) {
    let start = a;
 
@@ -17,4 +10,4 @@ function nums(a, b) {
    }, 1000);
 }
 
-nums (x, y);
+nums (5, 10);
